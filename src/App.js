@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 // import About from './components/About';
+import Alert from './components/Alert';
 import React, { useState } from 'react';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
     {/* <Navbar title="TextUtils" aboutText="About TextUtils" /> */}
     {/* <Navbar/> */}
     <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
+    <Alert/>
     <div className="container my-3">
     <TextForm heading="Enter the text to analyze below"/>
     {/* <About/> */}
