@@ -1,6 +1,11 @@
+import Demo from './Demo';
+
 function App() {
   return (
-    <h1>Hello | My Name is Sahil</h1>
+    <>
+      <Demo/>
+      <h1>Hello | My Name is Sahil</h1>
+    </>
   );
 }
 
